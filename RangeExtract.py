@@ -34,10 +34,6 @@ def solution(args):
         str += ','
         str += f'{args[i+2]}'
 
-    print(str)
-               
-#arr = [-6, -3, -2, -1, 0, 1, 3, 4, 5, 7, 8, 9, 10, 11, 14, 15, 17, 18, 19, 20]
-#It should work for random inputs too: '-52--50,-48,-46,-45,-42,-40--35' should equal '-52--50,-48,-46,-45,-42,-40--38,-35'
-
+    return str
 
 solution(arr)
